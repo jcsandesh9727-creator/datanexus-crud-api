@@ -2,7 +2,7 @@ const swaggerJsDoc = require("swagger-jsdoc");
 
 const options = {
   swaggerDefinition: {
-    swagger: "2.0",   // ⭐ change from openapi → swagger
+    swagger: "2.0",
     info: {
       title: "DataNexus CRUD API",
       version: "1.0.0",
@@ -10,7 +10,7 @@ const options = {
     },
     host: "datanexus-crud-api.onrender.com",
     basePath: "/",
-    schemes: ["http"]
+    schemes: ["https"]
   },
   apis: ["./routes/user.routes.js"]
 };
