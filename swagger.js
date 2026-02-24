@@ -8,7 +8,7 @@ const options = {
       version: "1.0.0",
       description: "Production Ready API Documentation"
     },
-    host: "localhost:5000",
+    host: "datanexus-crud-api.onrender.com",
     basePath: "/",
     schemes: ["http"]
   },
